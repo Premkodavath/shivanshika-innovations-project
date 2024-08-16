@@ -1,0 +1,81 @@
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+    font-family: Arial, sans-serif;
+}
+body{
+    color: #0e0d0d;
+}
+.products-list{
+    height: 900px;
+    width: 800px;
+    box-shadow: 0px 0px 10px rgb(48, 47, 47);
+    border-radius: 10px;
+    
+}
+
+
+#head{
+    text-align: center;
+    padding: 10px;
+
+}
+.aligns{
+    padding: 20px;
+    text-align: center;
+}
+.m1{
+    height:420px;
+    width: 760px;
+    padding-left:0px;
+}
+.ptext{
+text-align: left;
+}
+
+.download-button {
+    display: inline-flex;
+    align-items: center;
+    justify-content: center;
+    background-color: #4a8893;
+    color: white;
+    padding: 10px 20px;
+    text-decoration: none;
+    border-radius: 6px;
+   position: relative;
+   top: 20px;
+   
+}
+
+.download-button:hover {
+    background-color: #45a049;
+}
+
+
+@media (max-width: 786px) {
+   
+    .products-list {
+        width: 100%; /* Make width responsive */
+        max-width: 800px; /* Control maximum width */
+        margin: auto; /* Center the container */
+        box-shadow: 0px 0px 10px rgb(48, 47, 47);
+        border-radius: 10px;
+        padding: 10px; /* Add padding for inner spacing */
+    }
+    .m1 {
+        width: 100%; /* Responsive image width */
+        height: auto; /* Adjust height automatically */
+    }
+    
+}
+
+
+.container {
+    width: 100%; /* Use full width for container */
+    max-width: 960px; /* Control maximum width */
+    margin: auto; /* Center align the container */
+}
+
+
+
